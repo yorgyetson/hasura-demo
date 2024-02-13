@@ -1,0 +1,45 @@
+{
+  "name": "webui",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+    "generate": "graphql-codegen"
+  },
+  "devDependencies": {
+    "@iconify/svelte": "^3.1.6",
+    "@kitql/graphql-codegen": "^0.5.4",
+    "@sveltejs/adapter-auto": "^3.0.0",
+    "@sveltejs/kit": "^2.0.0",
+    "@sveltejs/vite-plugin-svelte": "^3.0.0",
+    "@tailwindcss/forms": "^0.5.7",
+    "@tailwindcss/typography": "^0.5.10",
+    "autoprefixer": "^10.4.16",
+    "daisyui": "^4.4.20",
+    "graphql-codegen-svelte-apollo": "^1.1.0",
+    "postcss": "^8.4.32",
+    "postcss-load-config": "^5.0.2",
+    "svelte": "^4.2.7",
+    "svelte-check": "^3.6.0",
+    "tailwindcss": "^3.3.6",
+    "tslib": "^2.4.1",
+    "vite": "^5.0.3"
+  },
+  "type": "module",
+  "dependencies": {
+    "@apollo/client": "^3.9.4",
+    "@kitql/client": "^0.5.12",
+    "date-fns": "^3.3.1",
+    "dayjs": "^1.11.10",
+    "graphql": "15.8.0",
+    "graphql-ws": "^5.15.0",
+    "react": "^18.2.0",
+    "subscriptions-transport-ws": "^0.11.0",
+    "svelte-apollo": "^0.5.0",
+    "ws": "^8.16.0"
+  }
+}
