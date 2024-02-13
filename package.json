@@ -34,6 +34,7 @@
   "dependencies": {
     "@apollo/client": "^3.9.4",
     "@kitql/client": "^0.5.12",
+    "@sveltejs/adapter-static": "^3.0.1",
     "date-fns": "^3.3.1",
     "dayjs": "^1.11.10",
     "graphql": "15.8.0",
